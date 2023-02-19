@@ -1,0 +1,18 @@
+python ==3.9.1
+anaconda-navigator==2.1.4
+conda==22.9.0
+feature-engine==1.4.1
+keras==2.10.0
+matplotlib @ file:///C:/ci/matplotlib-suite_1660169687702/work
+matplotlib-inline @ file:///C:/ci/matplotlib-inline_1661915841596/work
+pandas @ file:///C:/b/abs_cdcgk91igc/croots/recipe/pandas_1663772960432/work
+pandas-datareader==0.10.0
+pipreqs==0.4.11
+pmdarima==2.0.1
+pyls-spyder==0.4.0
+scipy==1.9.1
+sklearn==0.0.post1
+tensorflow==2.10.0
+statsmodels==0.13.5
+streamlit==1.2.0
+scikit-learn==1.0.1
