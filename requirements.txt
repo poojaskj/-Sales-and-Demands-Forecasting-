@@ -1,0 +1,7 @@
+altair==4.2.2
+feature_engine==1.4.1
+matplotlib==3.5.2
+numpy==1.21.5
+pandas==1.4.4
+statsmodels==0.13.5
+streamlit==1.18.1
