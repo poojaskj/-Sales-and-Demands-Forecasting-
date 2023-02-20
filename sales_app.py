@@ -25,10 +25,7 @@ st.markdown("----")
 if uploaded_file is not None:
  # Can be used wherever a "file-like" object is accepted:
     df = pd.read_excel(uploaded_file)
-    if (uploaded_file==1):
-        st.balloons()
-    else:
-        st.write("Please Upload a File")
+    
     # Create a text element and let the reader know the data is loading.
     data_load_state = st.text('Loading data...')
 
