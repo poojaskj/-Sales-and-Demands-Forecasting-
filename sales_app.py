@@ -220,12 +220,12 @@ if uploaded_file is not None:
         
 st.write("Thanking You")
 col1, col2 = st.columns()
-col1.write("Developer: Pooja Suryawanshi")
-col1.write(Contact : +91 8329247037)
+col1.write("Developer- Pooja Suryawanshi")
+col1.write("Contact - +91 8329247037")
 
-col2.write("email : poojaskj29@gmail.com")
-col2.write("Linkdin : linkedin.com/in/pooja-suryawanshi-979b06197")
-col2.write("Github : https://github.com/poojaskj/-Sales-and-Demands-Forecasting-")
+col2.write("email - poojaskj29@gmail.com")
+col2.write("Linkdin - linkedin.com/in/pooja-suryawanshi-979b06197")
+col2.write("Github - https://github.com/poojaskj/-Sales-and-Demands-Forecasting-")
 
 
            
