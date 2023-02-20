@@ -9,6 +9,9 @@ matplotlib.use('Agg')
 
 
 st.title('Sales Predictor')
+st.write("WELCOME")
+st.write(" Sales Predictor- an app used to predict the future values from the time series Data. The Model Chosed is given the best asccuracies i.e. over90 %. ")
+st.write("We would Love to help you by predicting future sales of your Product") 
 
 st.subheader('Update /Upload File')
 
@@ -215,3 +218,14 @@ if uploaded_file is not None:
         st.line_chart(data=df, y= ['NetSales(Qty)'])
         st.line_chart(data=forecast )
         
+st.write("Thanking You")
+col1, col2 = st.columns()
+col1.write("Developer: Pooja Suryawanshi")
+col1.write(Contact : +91 8329247037)
+
+col2.write("email : poojaskj29@gmail.com")
+col2.write("Linkdin : linkedin.com/in/pooja-suryawanshi-979b06197")
+col2.write("Github : https://github.com/poojaskj/-Sales-and-Demands-Forecasting-")
+
+
+           
