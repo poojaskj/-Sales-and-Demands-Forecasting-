@@ -219,7 +219,7 @@ if uploaded_file is not None:
         st.line_chart(data=forecast )
         
 st.write("Thanking You")
-col1, col2 = st.columns()
+col1, col2 = st.columns(2)
 col1.write("Developer- Pooja Suryawanshi")
 col1.write("Contact - +91 8329247037")
 
