@@ -218,7 +218,19 @@ if uploaded_file is not None:
         st.line_chart(data=df, y= ['NetSales(Qty)'])
         st.line_chart(data=forecast )
         
-st.write("Thanking You")
+        
+st.markdown("   ")
+st.markdown("   ")
+st.markdown("   ")
+st.markdown("   ")
+st.markdown("   ")
+st.markdown("   ")
+
+st.subheader("Thanking You...")
+st.markdown("   ")
+st.markdown("   ")
+st.markdown("   ")
+st.markdown("   ")
 col1, col2 = st.columns(2)
 col1.write("Developer- Pooja Suryawanshi")
 col1.write("Contact - +91 8329247037")
