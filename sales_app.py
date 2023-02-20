@@ -9,10 +9,13 @@ matplotlib.use('Agg')
 
 
 st.title('Sales Predictor')
+st.markdown("   ")
+st.markdown("   ")
 st.write("WELCOME")
 st.write(" Sales Predictor- an app used to predict the future values from the time series Data. The Model Chosed is given the best asccuracies i.e. over90 %. ")
 st.write("We would Love to help you by predicting future sales of your Product") 
-
+st.markdown("   ")
+st.markdown("   ")
 st.subheader('Update /Upload File')
 
 uploaded_file = st.file_uploader("Choose a File", type=["xlsx"])
