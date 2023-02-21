@@ -207,7 +207,7 @@ if uploaded_file is not None:
         st.write(A)
         
         Accuracy = 100-( np.mean(np.abs(forecast - test.values[:(period+1)])/np.abs(test.values[:(period+1)])))*100
-        MSE = int(np.sqrt(np.mean((forecast - test.values[:(period+1)])**2)**.5)*100)
+        MSE = int(np.mean((forecast - test.values[:(period+1)])**2)**.5)*100
         
         st.metric(label="Accuracy of model", value= Accuracy)
         st.metric(label="Quantity loss due to sales", value=MSE)
