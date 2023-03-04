@@ -92,11 +92,11 @@ if uploaded_file is not None:
     
     df = df.set_index("Date")
     
-    Dfs = df.iloc[:,4]
+    Dfs = df.iloc[:,["NetSales(Qty)"]]
     
     
     #For Demands data
-    Dfd = df.iloc[:,3]
+    Dfd = df.iloc[:,["Orders_Placed(Qty)"]
     
     
     from statsmodels.tsa.seasonal import seasonal_decompose
