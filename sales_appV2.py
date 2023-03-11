@@ -9,7 +9,7 @@ import statsmodels
 import sqlite3
 import plotly.graph_objects as go
 
-st.title('Sales Predictor')
+st.title('Sales Prediction App')
 st.markdown("   ")
 st.markdown("   ")
 st.subheader("WELCOME")
