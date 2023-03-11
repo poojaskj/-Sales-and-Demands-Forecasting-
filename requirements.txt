@@ -6,4 +6,4 @@ pandas==1.4.4
 statsmodels==0.13.5
 streamlit==1.18.1
 openpyxl==3.0.10
- plotly==4.14.3
+ plotly==4.7
