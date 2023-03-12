@@ -69,7 +69,7 @@ if uploaded_file is not None:
     st.subheader("Plotting")
 
     with st.expander("Bar Chart"):
-        st.bar_chart(data=df, x=Index, y=Sales_MT, use_container_width=True).interactive()
+        st.bar_chart(data=df, x=Month, y=Sales_MT, use_container_width=True).interactive()
 
     st.markdown("----")
     
