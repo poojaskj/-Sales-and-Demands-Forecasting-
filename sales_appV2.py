@@ -8,6 +8,7 @@ matplotlib.use('Agg')
 import statsmodels
 import sqlite3
 import plotly.graph_objects as go
+from bokeh.plotting import figure
 
 st.title('Sales Prediction App')
 st.markdown("   ")
@@ -68,9 +69,13 @@ if uploaded_file is not None:
 
     st.subheader("Plotting")
 
-    with st.expander("Bar Chart"):
-        st.bar_chart(data=df, x=['Month'], y=['Sales_MT'], use_container_width=True).interactive()
+    with st.expander("Bokeh Chart"):
+        p = figure(
+            x_axis_label='Month',
+            y_axis_label='Sales_MT')
+        p.line(df['Month'], df['Sales_MT'], legend_label='Trend', line_width=2)
 
+        st.bokeh_chart(p, use_container_width=True)
     st.markdown("----")
     
     with st.expander("Line Chart"):
