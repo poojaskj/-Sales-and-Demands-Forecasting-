@@ -70,8 +70,8 @@ if uploaded_file is not None:
 
     with st.expander("Altair Chart"):
         chart = alt.Chart(df).mark_circle().encode(
-            x='Month',
-            y='Sales_MT'
+            x='Sales_MT',
+            y='Month'
             ).interactive()
        
         st.altair_chart(chart, theme="streamlit", use_container_width=True)
