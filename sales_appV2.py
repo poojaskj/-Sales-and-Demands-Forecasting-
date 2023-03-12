@@ -70,12 +70,10 @@ if uploaded_file is not None:
     st.subheader("Plotting")
 
     with st.expander("Bokeh Chart"):
-        p = figure(
-            x_axis_label='Month',
-            y_axis_label='Sales_MT')
-        p.line(df['Month'], df['Sales_MT'], legend_label='Trend', line_width=2)
+        fig, ax = plt.subplots()
+        ax.hist(df["Sales_MT"], bins=20)
+        st.pyplot(fig)
 
-        st.bokeh_chart(p, use_container_width=True)
     st.markdown("----")
     
     with st.expander("Line Chart"):
