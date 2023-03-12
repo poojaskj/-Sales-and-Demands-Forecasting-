@@ -8,7 +8,7 @@ matplotlib.use('Agg')
 import statsmodels
 import sqlite3
 import plotly.graph_objects as go
-from bokeh.plotting import figure
+
 
 st.title('Sales Prediction App')
 st.markdown("   ")
