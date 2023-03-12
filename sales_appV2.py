@@ -69,9 +69,9 @@ if uploaded_file is not None:
 
     st.subheader("Plotting")
 
-    with st.expander("Bokeh Chart"):
+    with st.expander(" Histogram"):
         fig, ax = plt.subplots()
-        ax.hist(df["Sales_MT"], bins=20)
+        ax.hist(df["Sales_MT"], bins=10)
         st.pyplot(fig)
 
     st.markdown("----")
