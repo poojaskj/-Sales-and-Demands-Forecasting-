@@ -97,7 +97,7 @@ if uploaded_file is not None:
     
     df = df.set_index("Month")
     
-    Dfs = df.iloc[:,1]
+    Dfs = df.iloc[:,0]
     
     
     
