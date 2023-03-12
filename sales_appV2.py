@@ -68,13 +68,8 @@ if uploaded_file is not None:
 
     st.subheader("Plotting")
 
-    with st.expander("Altair Chart"):
-        chart = alt.Chart(df).mark_circle().encode(
-            x='Sales_MT',
-            y='Orders_MT'
-            ).interactive()
-       
-        st.altair_chart(chart, theme="streamlit", use_container_width=True)
+    with st.expander("Bar Chart"):
+        st.bar_chart(data=df, *, x=Index, y=Sales_MT, use_container_width=True).interactive()
 
     st.markdown("----")
     
